@@ -1,0 +1,13 @@
+package org.cyberpelis.models;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "genero")
+public class Genero {
+	private int idgenero;
+	private String nombreGenero;
+	
+	
+}

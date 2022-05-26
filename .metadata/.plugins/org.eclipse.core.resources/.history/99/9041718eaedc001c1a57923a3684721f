@@ -1,0 +1,5 @@
+package org.cyberpelis.models;
+
+public class Clasificacion {
+
+}

@@ -1,0 +1,15 @@
+package org.cyberpelis.models;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "pelicula")
+public class Pelicula {
+	private int idpelicula;
+	private String titulo;
+	private int fecha;
+	private String duracion;
+	private int idgenero;
+	private int idclasificacion;
+}

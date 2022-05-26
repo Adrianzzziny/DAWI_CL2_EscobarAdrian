@@ -1,0 +1,5 @@
+package org.cyberpelis.repository;
+
+public interface IClasificacionRepository {
+
+}

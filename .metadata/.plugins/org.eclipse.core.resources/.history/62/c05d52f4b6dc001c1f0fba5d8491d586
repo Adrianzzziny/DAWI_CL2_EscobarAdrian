@@ -1,0 +1,16 @@
+package org.cyberpelis.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.cyberpelis.models.Pelicula;
+
+@Controller
+public class PeliculasController {
+
+	@GetMapping("/cargar")
+	public String abriPag(Model model) {
+	return "crudPeliculas";
+	}
+}
